@@ -1,0 +1,56 @@
+<html>
+
+<head>
+  <title>survey form</title>
+  <link rel="stylesheet" href="Surveyform.css">
+</head>
+
+<body>
+  <h1 id="title">freeCodeCamp Survey Form</h1>
+
+  <p id="description">Thank you for taking the time to help us improve the platform</p>
+
+  <div class="formcontainer">
+    <form id="survey-form">
+      <div class="nen">
+        <p><b>NAME:-</b><br>
+          <input id="name" type="text" placeholder="Enter your name here" required><br>
+          <b>E-mail:-</b><br><input id="email" type="email" placeholder="Enter your email here" required><br>
+          <b>Number:-</b><br><input id="number" type="number" min="0" max="10" placeholder="Enter your number here"><br>
+      </div>
+
+
+      <div class="Education">
+        <label><b>Select Your Education:-</b><select id="dropdown" name="education">
+            <option name="select">-SELECT-</option>
+            <option name="science">Science</option>
+            <option name="commerce">Commerce</option>
+        </label>
+        </select>
+        <br>
+      </div>
+
+      <div class="gender">
+        <label><b>Select Your Gender:-</b></label>
+
+        <input type="radio" name="male-female" value="male" class="inline">  Male
+        <input type="radio" name="male-female" value="female" class="inline">  Female<br>
+      </div>
+
+      <div class="City">
+        <label><b>Select Your City:-</b></label>
+
+        <input type="checkbox" value="kalyan" class="inline">  Kalyan
+        <input type="checkbox" value="badlapur" class="inline">  Badlapur<br>
+      </div>
+
+      <div class="comments">
+        <p><b>Any Comments or Suggestion here:-</b></p>
+        <textarea name="comments" placeholder="Enter your comments"></textarea><br>
+        <div class="submit"><button id="submit" type="submit" value="submit" >Submit</button></div>
+      </div>
+    </form>
+  </div>
+</body>
+
+</html>

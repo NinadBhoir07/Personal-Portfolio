@@ -1,0 +1,62 @@
+.App {
+  text-align: center;
+}
+
+.App-header {
+
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+
+section{
+  position:relative;
+  margin: 0 350px;
+  padding: 20px;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  background-color: #fff;
+}
+
+#text{
+  padding: 20px;
+  font-size:xx-large;
+  font-weight: 800;
+  font-family:Verdana, Geneva, Tahoma, sans-serif;
+  color:#000000;
+
+}
+
+#author{
+  padding: 5px;
+  float: right;
+  font-size:x-large;
+  color: #000;
+  font-style: italic;
+}
+
+#buttons{
+  display:block;
+  padding-top: 50px;
+}
+
+#tweet-quote{
+  font-size:xx-large;
+  color: rgb(10, 177, 243);
+  float: left;
+}
+
+#new-quote{
+  height: 40px;
+  width:100px;
+  font-size:medium;
+  font-weight: 600;
+  font-family:Arial, Helvetica, sans-serif;
+  float: right;
+}

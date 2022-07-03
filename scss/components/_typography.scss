@@ -1,0 +1,42 @@
+@use "../custom" as *;
+
+// Intro-section
+.display-2 {
+    margin-bottom: 2rem;
+    text-transform: capitalize;
+    font-family: "Poppins", sans-serif;
+
+    &--intro {
+        display: inline-block;
+        font-weight: 600;
+        color: $white;
+        font-family: "Poppins", sans-serif;
+    }
+
+    &--description {
+        display: block;
+        font-weight: 0.5rem;
+        text-transform: none;
+        color: $red;
+        margin-top: 1.2rem;
+    }
+}
+
+// Portfolio-section
+.project-desc {
+    text-align: center;
+
+    a {
+        color: rgb(172, 37, 37);
+        text-decoration: none;
+    }
+
+    .project-title {
+        text-align: center;
+        font-weight: 600;
+        font-size: larger;
+    }
+}
+
+
+

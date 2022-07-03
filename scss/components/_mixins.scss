@@ -1,0 +1,13 @@
+@use '../custom' as *;
+
+// MIXIN GRADIENT
+
+    @mixin gradient {
+        background: linear-gradient(to right, rgba($secondary, 0.95), rgba($primary, 0.95));
+    }
+    
+// MIXIN GRADIENT FOR INTRO-SECTION
+
+    @mixin gradient-2{
+        background: linear-gradient(to left, rgba($black, 0.95), rgba($gray-800, 0.95));
+    }

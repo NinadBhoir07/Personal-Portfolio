@@ -1,0 +1,49 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Gideon+Roman&display=swap');
+
+#image{
+  display:block;
+  margin:0 auto;
+  max-width:100%;
+}
+#img-div{
+  display:inline-block;
+  text-align:center;
+}
+
+#img-caption{
+  font-family: 'Gideon Roman', cursive;
+  
+}
+
+body{
+  text-align:center;
+}
+
+.trib-info{
+  margin:30px 0 0 0;
+  height:360px;
+  display:flex;
+  flex-direction:column;
+  text-align:start;
+  background-color:#eee;
+  padding:70px 160px 0 160px;
+}
+
+.header{
+  background-color:#eee;
+  border:2px solid silver;
+}
+
+.footer{
+   text-align:center;
+}
+
+h1,h2{
+  font-family: 'Roboto', sans-serif;
+}
+
+.header p{
+  font-family: 'Gideon Roman', cursive;
+  font-weight:1.5rem;
+}

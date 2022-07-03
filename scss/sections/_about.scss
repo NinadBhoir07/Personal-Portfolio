@@ -1,0 +1,15 @@
+@use '../custom' as *;
+
+.lang-icon{
+    font-size: large;
+    font-weight: 600;
+    width: 180px;
+    height: 180px;
+
+    @include media-breakpoint-up(sm){
+        display: flex;
+        flex-direction: row;
+        width: 20px;
+        height:20px;
+    }
+}

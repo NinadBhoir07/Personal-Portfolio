@@ -1,0 +1,9 @@
+@use '../custom' as *;
+@use '../components/mixins' as *;
+
+.portfolio {
+
+    article img {
+    border: 4px solid black;
+  }
+}

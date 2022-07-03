@@ -1,0 +1,131 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  @import url('https://fonts.googleapis.com/css2?family=Baloo+Bhaijaan+2&display=swap');
+  @import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200&display=swap');
+
+  
+  @media only screen and (max-width: 700px){
+    header{
+      width:100vw;
+      height:5vh;
+    }
+    
+    body{
+      width:100vw;
+      height:100vh;
+    }
+    
+  #heading{
+    flex-wrap:wrap;
+    }
+    
+    #header-wrap{
+      margin-top: 15px;
+      width: 100%;
+      position: relative;
+  
+    }
+  }
+  body{
+    background-color:#eee;
+  }
+  
+  .head-wrap{
+    position:realtive;
+  }
+  header{
+    position:fixed;
+    width:100vw;
+    top:0;
+    z-index:2;
+    background-color:silver;
+  }
+  
+  header nav {
+    display: flex;
+    justify-content: space-between;
+    height:3vw;
+  }
+  nav ul {
+    display: flex;
+  }
+  nav ul li {
+    display:flex;
+    list-style: none;
+    padding: 0 30px 0 0;
+    align-items:center;
+  }
+  
+  nav ul li a {
+    text-decoration: none;
+    color:black;
+    font-family: 'Oswald', sans-serif;
+  }
+  #header-img {
+    width: 25vw;
+    display: inline-block;
+    text-align: center;
+  }
+  .feat{
+    display:flex;
+    justify-content:center;
+    height:20vw;
+    margin:65px 0px 0px 0px;
+  }
+  
+  #heading{
+    display:inline-block;
+    padding:25px 0px 15px 245px;
+  }
+  h1{
+    font-family: 'Baloo Bhaijaan 2', cursive
+  }
+  .vid{
+    display:flex;
+    justify-content:center;
+    
+  }
+  
+  .fr{
+    display:flex;
+    justify-content:center;
+    flex-wrap:no-wrap;
+  }
+  
+  #pricing{
+    display:flex;
+    justify-content:space-around;
+  }
+  
+  .crights{
+    display:flex;
+    justify-content:center;
+    background-color:#ddd;
+    height:50px;
+    align-items: center;
+    text-align: center;
+  }
+  
+  .product{
+    display:flex;
+    flex-direction:column;
+    padding:2px 0px;
+    align-items: center;
+    text-align: center;
+    border:2px solid black;
+    width:28vw;
+    height:30%;
+  }
+  .level{
+    display:block;
+    padding: 15px 0;
+    width: 100%;
+    background-color:#ddd;
+  }
+  
+  .product ul li{
+    list-style:none;
+  }
